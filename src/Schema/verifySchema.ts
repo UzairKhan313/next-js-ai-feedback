@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export const vefitySchema = z.object({
+export const verifySchema = z.object({
   code: z
     .string()
     .length(6, { message: "Verification code must be 6 digits." }),
